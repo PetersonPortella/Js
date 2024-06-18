@@ -22,6 +22,12 @@ console.log("meu nome é" ,nome, "e eu tenho" ,30, "anos")
 var numero = null (é proposital que é null que é igual a não tem valor)
 var numero2 = undestnet (que não tem valor  ou esqueceu de colocar o valor)
  */
+if ( 2 == 3){
+    verdadeiro
+} else {
+    falso
+}
+
 
 
 
