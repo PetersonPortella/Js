@@ -22,12 +22,19 @@ console.log("meu nome é" ,nome, "e eu tenho" ,30, "anos")
 var numero = null (é proposital que é null que é igual a não tem valor)
 var numero2 = undestnet (que não tem valor  ou esqueceu de colocar o valor)
  */
-if ( 2 == 3){
-    verdadeiro
-} else {
-    falso
-}
 
+var nota = prompt('digite a nota final')
+
+if ( 'nota' == 3){
+   documet.write( 'verdadeiro')
+} else {
+    document.write( 'falso')
+
+if ( '2' === 3){
+    document.write( 'verdadeiro')
+} else {
+    documet.write( 'falso')
+}
 
 
 
