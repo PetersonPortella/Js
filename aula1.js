@@ -23,18 +23,24 @@ var numero = null (é proposital que é null que é igual a não tem valor)
 var numero2 = undestnet (que não tem valor  ou esqueceu de colocar o valor)
  */
 
-var nota = prompt('digite a nota final')
+var nota = prompt('digite a nota final:')
 
-if ( 'nota' == 3){
-   documet.write( 'verdadeiro')
+var media = 7
+
+if ( nota >= media ){
+   document.write('Aprovado')
 } else {
-    document.write( 'falso')
+   document.write('Reprovado')
+}
 
-if ( '2' === 3){
-    document.write( 'verdadeiro')
+
+if ( '3' === 3){
+    documet.write( 'verdadeiro')
 } else {
     documet.write( 'falso')
 }
+    
+
 
 
 
