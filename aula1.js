@@ -2,7 +2,9 @@
 
 var nome = 'peterson'
 
-var number = -9
+/*
+
+var number = -9 */
 
 var floar = 100.55
 
