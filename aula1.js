@@ -74,6 +74,9 @@ var variavel2 = 10
 
 document.write(variavel1.toString() + variavel2.toString())
 
+//nunca somar ou concatenar uma string com numero, da merda
+const var int // 3 variaveis ex: var nomeCompleto= (nome + sobrenome)
+//
     
 
 
