@@ -10,7 +10,7 @@ var sim = 'true'
 
 //console.log()
 //alert()
-//getSelection()
+//getSelectionById()
 
 console.log(nome)
 console.log(number)
