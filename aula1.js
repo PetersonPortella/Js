@@ -78,7 +78,10 @@ document.write(variavel1.toString() + variavel2.toString())
 const var int // 3 variaveis ex: var nomeCompleto= (nome + sobrenome)
 //
     
+function soma(valor1, valor2){
+   return valor1 * valor2;
+}
 
-
+var total= soma(10,20);
 
 
