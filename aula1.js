@@ -4,7 +4,7 @@ var nome = 'peterson'
 
 var number = -9 */
 
-var floar = 100.55
+var float = 100.55
 
 var sim = 'true'
 
@@ -85,3 +85,20 @@ function soma(valor1, valor2){
 var total= soma(10,20);
 
 
+//3 variaveis 
+var, let , const
+
+//operadores aritimeticos, matematicos, atribuição,ternario 
+( + - * / = ++ -- += -= && || !)
+
+//funçoes
+   function Quadro (valor1, valor2){
+ return 10 * valor1 + valor2 ;
+}
+
+var sim = 70
+var não = 10
+
+var total = Quadro(sim,não);
+
+alert('resultado foi' + total);
