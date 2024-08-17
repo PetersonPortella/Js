@@ -78,26 +78,19 @@ document.write(variavel1.toString() + variavel2.toString())
 const var int // 3 variaveis ex: var nomeCompleto= (nome + sobrenome)
 //
     
-function soma(valor1, valor2){
-   return valor1 * valor2;
-}
-
-var total= soma(10,20);
-
-
 //3 variaveis 
 var, let , const
 
 //operadores aritimeticos, matematicos, atribuição,ternario 
 ( + - * / = ++ -- += -= && || !)
 
-//funçoes
+//FUNCTION
    function Quadro (valor1, valor2){
- return 10 * valor1 + valor2 ;
+     return 10 + valor1 + valor2;
 }
 
-var sim = 70
-var não = 10
+var sim = 50;
+var não = 40;
 
 var total = Quadro(sim,não);
 
@@ -113,3 +106,26 @@ var nao = 40;
 var total = Quadro(sim,nao);
 
 document.getElementById("teste").innerHTML= total;
+
+//DECLARAÇÕES
+1° let a, b, c;
+2° a=5;
+3° b=6;
+4° c=5;
+// 4 declarações
+
+//SENTAXE
+//são basicamentes os nomes da variaveis, ou comando de function, sempre escrever do mesmo jeito, AA AA ou Cisco ai vai ser Cisco, sempre com _ e nunca com - hifem, sempre fazer 'assimFazer' nunca 'fazerassim'
+
+//OBJETOS
+const carrro = { //carro = OBJETO
+   marca:"ford"; //PROPRIEDADES
+   modelo:"ka"; //PROPRIEDADES
+   ano: 2000; //PROPRIEDADES
+}
+console.log(carro.modelo); //vai aparecer ka
+
+// 
+
+
+
