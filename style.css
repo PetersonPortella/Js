@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 25px;
+}
+
+header{
+    
+    background: #15ff00;
+}
+
+nav{
+    background-color: #b41111;
+    
+}
+
+nav ul li {
+   display: inline-block;
+   position: relative;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 14px 28px;
+    text-decoration: overline;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+    text-decoration: none;
+}
+
+nav ul .submenu {
+    display: none;
+    position: absolute;
+    background-color: #b41111;
+   
+}
+
+
+nav .submenu li a {
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav ul li:hover .submenu {
+    display: block;
+    text-decoration: none;
+   
+}
+
+/*
+<header>
+    <h1>titulo 1</h1>
+    <h2>titulo2</h2>
+
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a>
+            <ul class="submenu">
+                <li><a href="#">Missão</a></li>
+               
+            </ul>
+        </li>
+
+        <li><a href="#">Sobre</a>
+            <ul class="submenu">
+                <li><a href="#">Missão</a></li>
+                <li><a href="#">Valores</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#">Datas</a>
+            <ul class="submenu">
+                <li><a href="#">Missão</a></li>
+               
+            </ul>
+        </li>
+
+        <li><a href="#">Local</a>
+            <ul class="submenu">
+                <li><a href="#">Missão</a></li>
+                <li><a href="#">Visão</a></li>
+                
+            </ul>
+        </li>
+    </ul>
+</nav>
+*/
