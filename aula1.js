@@ -127,5 +127,8 @@ console.log(carro.modelo); //vai aparecer ka
 
 // 
 
+let anonimo = function(nome){
+   console.log("ola" + nome + "tudo");
+}
 
-
+let anonimo = "peterson";
