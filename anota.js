@@ -63,15 +63,6 @@ if(!(4 >= 2)){
     document.write('falso')
 }
 
-var nome = 'peterson'
-
-var number = -9
-
-//var floar = 100.55
-
-//var sim = 'true'
-
-
 //console.log() //sai no servidor 
 //alert() // sai avisando na pagina do meio
 //getSelection() //puxa uma id
